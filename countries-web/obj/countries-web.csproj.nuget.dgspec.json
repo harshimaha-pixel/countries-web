@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "\\\\wsl.localhost\\Ubuntu-24.04\\home\\harshithaappasani01081989\\countries\\countries-web\\countries-web.csproj": {}
+    "\\\\wsl.localhost\\Ubuntu\\home\\skamma\\demo-app\\countries-web-clone\\countries-web\\countries-web.csproj": {}
   },
   "projects": {
-    "\\\\wsl.localhost\\Ubuntu-24.04\\home\\harshithaappasani01081989\\countries\\countries-web\\countries-web.csproj": {
+    "\\\\wsl.localhost\\Ubuntu\\home\\skamma\\demo-app\\countries-web-clone\\countries-web\\countries-web.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "\\\\wsl.localhost\\Ubuntu-24.04\\home\\harshithaappasani01081989\\countries\\countries-web\\countries-web.csproj",
+        "projectUniqueName": "\\\\wsl.localhost\\Ubuntu\\home\\skamma\\demo-app\\countries-web-clone\\countries-web\\countries-web.csproj",
         "projectName": "countries-web",
-        "projectPath": "\\\\wsl.localhost\\Ubuntu-24.04\\home\\harshithaappasani01081989\\countries\\countries-web\\countries-web.csproj",
-        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "\\\\wsl.localhost\\Ubuntu-24.04\\home\\harshithaappasani01081989\\countries\\countries-web\\obj\\",
+        "projectPath": "\\\\wsl.localhost\\Ubuntu\\home\\skamma\\demo-app\\countries-web-clone\\countries-web\\countries-web.csproj",
+        "packagesPath": "C:\\Users\\Home\\.nuget\\packages\\",
+        "outputPath": "\\\\wsl.localhost\\Ubuntu\\home\\skamma\\demo-app\\countries-web-clone\\countries-web\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Home\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],

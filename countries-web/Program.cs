@@ -45,6 +45,7 @@ static string BuildHtml(IEnumerable<Country> countries)
     sb.AppendLine("    th,td{padding:12px;border-bottom:1px solid #eee;text-align:left}");
     sb.AppendLine("    th{background:#f0f2f7;font-weight:600}");
     sb.AppendLine("    tr:hover{background:#fafbff}");
+    sb.AppendLine("    .country-name{color:green;font-weight:600;font-size:50px}");
     sb.AppendLine("    .pill{display:inline-block;background:#eef3ff;color:#2a4b8d;border-radius:999px;padding:4px 10px;font-size:12px}");
     sb.AppendLine("  </style>");
     sb.AppendLine("</head>");
@@ -57,7 +58,7 @@ static string BuildHtml(IEnumerable<Country> countries)
 
     foreach (var c in countries)
     {
-        sb.AppendLine($"<tr><td>{WebUtility.HtmlEncode(c.Name)}</td><td><span class=\"pill\">{WebUtility.HtmlEncode(c.Code)}</span></td><td>{WebUtility.HtmlEncode(c.Capital)}</td><td>{WebUtility.HtmlEncode(c.Region)}</td><td>{c.Population:N0}</td></tr>");
+        sb.AppendLine($"<tr><td class=\"country-name\">{WebUtility.HtmlEncode(c.Name)}</td><td><span class=\"pill\">{WebUtility.HtmlEncode(c.Code)}</span></td><td>{WebUtility.HtmlEncode(c.Capital)}</td><td>{WebUtility.HtmlEncode(c.Region)}</td><td>{c.Population:N0}</td></tr>");
     }
 
     sb.AppendLine("      </tbody>");
